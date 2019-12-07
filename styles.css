@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+#wrapper {
+  background-color: aquamarine;
+  overflow-x: hidden;
+}
+
+.polygon-header {
+  background-color: orangered;
+  height: 200px;
+  width: 100vw;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: safe center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: orangered;
+  height: 8vh;
+}
+
+.menu {
+  display: flex;
+  line-height: 70px;
+
+
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  height: 30vh
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: safe center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: orangered;
+  height: 8vh;
+}
+
+@media screen and (max-width: 599px) {
+  .nav {
+
+  }
+}
+
+.nav div {
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.main-content {
+  height: 100vh;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 30vw;
+  border-top: 1px solid black
+}
+
+
+
+
+
+  
