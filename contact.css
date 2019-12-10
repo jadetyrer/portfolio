@@ -1,0 +1,20 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
+  background-color: darkorange;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  margin-top: 10vh;
+  padding: 5vw
+
+}

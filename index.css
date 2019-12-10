@@ -1,0 +1,74 @@
+h1 {
+  font-size: 700%;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw;
+  padding: 1vw;
+  width: 60vw;
+  background-color: peru;
+}
+
+@media only screen and (max-width: 350px) {
+
+  .top-heading {
+    font-size: 30%;
+  }
+
+  .bottom-heading {
+    font-size: 30%;
+  }
+
+  .heading-section {
+    height: 30vh;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+
+
+.top-heading {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottom-heading {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+
+.left-box {
+  display: flex;
+  background-color: pink;
+  width: 40vw;
+  height: 40vw;
+  margin: 5vw
+}
+
+.right-box {
+  display: flex;
+  background-color: royalblue;
+  width: 40vw;
+  width: 40vw;
+  margin: 5vw
+}

@@ -9,8 +9,11 @@ body {
 }
 
 #wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: aquamarine;
   overflow-x: hidden;
+
 }
 
 .polygon-header {
@@ -22,21 +25,79 @@ body {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: safe center;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  background-color: orangered;
-  height: 8vh;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+
 }
+
 
 .menu {
+  width: 70vw;
   display: flex;
-  line-height: 70px;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 
+}
 
+.nav a {
+  text-decoration: none;
+}
+
+label {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    width: 95%
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .nav {
+    display: block;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  .menu {
+    display: none;
+    width: 100%;
+  }
+
+  .menu a {
+    display: block;
+    height: 15px
+  }
+
+  
+  label {
+    display: block;
+    cursor: pointer;
+    font-size: 50px;
+    float: right;
+  }
+
+
+  #toggle:checked + .menu {
+    display: block;
+    padding-top: 70px;
+   
+  }
 
 }
+
+
+#toggle {
+  display: none;
+}
+
+
+.main-content {
+ height: 100%
+}
+
 
 footer {
   display: flex;
@@ -45,36 +106,8 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: orangered;
-  height: 30vh
-}
-
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: safe center;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  background-color: orangered;
-  height: 8vh;
-}
-
-@media screen and (max-width: 599px) {
-  .nav {
-
-  }
-}
-
-.nav div {
-  padding: 10px;
-}
-
-.nav a {
-  text-decoration: none;
-}
-
-.main-content {
-  height: 100vh;
+  height: 30vh;
+  margin-top: 10vw
 }
 
 .social-media {

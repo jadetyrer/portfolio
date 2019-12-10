@@ -1,0 +1,22 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.heading-container {
+  margin: 30px
+}
+
+.heading-container a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 350px) {
+  .resume-image {
+    display: none;
+  }
+}
+
+
+
