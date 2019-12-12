@@ -1,6 +1,3 @@
-h1 {
-  font-size: 700%;
-}
 
 .heading-section {
   display: flex;
@@ -13,14 +10,17 @@ h1 {
   flex-direction: column;
   margin: 10vw;
   padding: 1vw;
-  width: 60vw;
-  background-color: peru;
+  width: 70vw;
+  background-image: url("pink_rice.png");
 }
 
 @media only screen and (max-width: 350px) {
 
   .top-heading {
     font-size: 30%;
+  }
+  .top-heading h1 {
+    font-size: 300%;
   }
 
   .bottom-heading {
@@ -35,20 +35,24 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
-
-
 }
-
-
 
 .top-heading {
   display: flex;
   justify-content: flex-start;
 }
 
+.top-heading h1 {
+  font-size: 300%;
+}
+
 .bottom-heading {
   display: flex;
   justify-content: flex-end;
+}
+
+.bottom-heading h1 {
+  font-size: 500%;
 }
 
 .about-content {
@@ -62,13 +66,64 @@ h1 {
   background-color: pink;
   width: 40vw;
   height: 40vw;
-  margin: 5vw
+  margin: 0vw
+}
+
+.left-box img {
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
 }
 
 .right-box {
   display: flex;
-  background-color: royalblue;
-  width: 40vw;
-  width: 40vw;
-  margin: 5vw
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vw;
+  background-color: pink;
+  width: 30vw;
+  height: 30vw;
+  transform: rotate(45deg);
+
+}
+
+.right-box h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 3vw;
+  /* padding: 10px; */
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+.right-box p {
+  margin: 20px 10px 25px 30px;
+  font-family: 'Roboto', sans-serif;
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+@media only screen and (max-width: 350px) {
+  .left-box {
+    width: 80vw;
+    height: 80vw
+  }
+
+  .right-box {
+    width: 70vw;
+    height: 70vw
+  }
+
+  .right-box p {
+    width: 70vw
+  }
+
+  .right-box h1 {
+    font-size: 20px;
+  }
+
+  .right-box p {
+    font-size: 12px;
+    padding-bottom: 30px
+  }
+
 }
