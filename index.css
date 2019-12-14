@@ -40,9 +40,9 @@
   justify-content: flex-start;
 }
 
-.top-heading h1 {
+/* .top-heading h1 {
   font-size: 300%;
-}
+} */
 
 .bottom-heading {
   display: flex;
