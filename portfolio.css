@@ -9,14 +9,12 @@
 
 .heading-container h1 {
   font-size: 3em;
-  font-weight: bolder;
 }
 
 .heading-container h2 {
   margin: 10px;
   font-size: 1em
 }
-
 
 .grid-container {
   display: grid;
@@ -36,8 +34,20 @@
 }
 
 
-.grid-item-picture {
+.grid-item-picture-1 {
   background-image:url(nails.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-picture-2 {
+  background-image:url(portfolio.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-picture-3 {
+  background-image:url(coming-soon.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -46,7 +56,8 @@
   background-color: whitesmoke;
   padding: 1.5vw;
   padding-bottom: 6vh;
-  color:  #192c39;;
+  color:  #192c39;
+  font-weight: bolder;
 }
 
 .grid-item-link {
@@ -98,12 +109,26 @@
     grid-row-end: 12;
   }
 
-  .grid-item-picture {
+  .grid-item-picture-1 {
     width: 80vw; 
-    background-image:url(nails.jpg);
     background-size: cover;
     background-position: top;
-    height:40vh;   
+    height:40vh; 
+  }
+    
+  .grid-item-picture-2 {
+    width: 80vw; 
+    background-size: cover;
+    background-position: top;
+    height:40vh;  
+  }
+
+    .grid-item-picture-3 {
+      width: 80vw; 
+      background-size: cover;
+      background-position: top;
+      height:40vh;  
+    }
 
   }
 

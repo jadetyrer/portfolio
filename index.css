@@ -3,15 +3,16 @@
   display: flex;
   justify-content: center;
   height: 80vh;
+
 }
 
 .heading-container {
   display: flex;
   flex-direction: column;
-  margin: 10vw;
   padding: 1vw;
   width: 70vw;
-  background-image: url("pink_rice.png");
+  margin-bottom: 20vh;
+  margin-top: 10vh;
 }
 
 @media only screen and (max-width: 400px) {
@@ -63,7 +64,6 @@
 
 .left-box {
   display: flex;
-  background-color: pink;
   width: 40vw;
   height: 40vw;
   margin: 0vw
@@ -90,7 +90,6 @@
 .right-box h1 {
   font-family: 'Muli', sans-serif;
   font-size: 3vw;
-  /* padding: 10px; */
   transform: rotate(-45deg);
   text-align: center;
 }
@@ -124,6 +123,11 @@
   .right-box p {
     font-size: 12px;
     padding-bottom: 30px
+  }
+
+  .left-box img {
+    width: 80vw;
+    height: 80vw;
   }
 
 }
