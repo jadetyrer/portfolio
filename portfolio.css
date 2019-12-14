@@ -9,6 +9,7 @@
 
 .heading-container h1 {
   font-size: 3em;
+  font-weight: bolder;
 }
 
 .heading-container h2 {
@@ -22,6 +23,7 @@
   margin-left: 10vw;
   margin-right: 10vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr;
   column-gap: 1vw
 }
 
@@ -33,24 +35,42 @@
   text-decoration: none;
 }
 
-.grid-item-picture img {
-  width: 20vw;
+
+.grid-item-picture {
+  background-image:url(nails.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .grid-item-text {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 1.5vw;
   padding-bottom: 6vh;
+  color:  #192c39;;
 }
 
 .grid-item-link {
   padding: 1.5vw;
-  background-color: bisque;
+  background-color: whitesmoke;
 }
 
-@media only screen and (max-width: 350px) {
+.grid-item-link a:hover {
+  cursor: pointer;
+}
+
+.grid-item-link a:link {
+  color: #192c39;
+}
+
+.grid-item-link a:vistied { 
+  color: purple;
+}
+
+@media only screen and (max-width: 700px) {
   .grid-container {
     grid-template-columns: 1fr;
+    align-items: start;
+    grid-template-rows: auto;
   }
   
   #item-2 {
@@ -78,12 +98,13 @@
     grid-row-end: 12;
   }
 
-  .grid-item-picture img {
-    width: 80vw;
-  }
-
   .grid-item-picture {
-    height: auto;
+    width: 80vw; 
+    background-image:url(nails.jpg);
+    background-size: cover;
+    background-position: top;
+    height:40vh;   
+
   }
 
   .grid-item-link {
