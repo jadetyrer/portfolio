@@ -12,9 +12,12 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
   .resume-image {
     display: none;
+  }
+  .heading-container {
+    height: 20vh;
   }
 }
 

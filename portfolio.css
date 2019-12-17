@@ -35,19 +35,19 @@
 
 
 .grid-item-picture-1 {
-  background-image:url(nails.jpg);
+  background-image:url(images/nails.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-picture-2 {
-  background-image:url(portfolio.png);
+  background-image:url(images/portfolio.png);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-picture-3 {
-  background-image:url(coming-soon.jpg);
+  background-image:url(images/coming-soon.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -130,9 +130,9 @@
       height:40vh;  
     }
 
-  }
-
   .grid-item-link {
     margin-bottom: 20px;
   }
+
 }
+
