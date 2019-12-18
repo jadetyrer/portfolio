@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   font-family: 'Oswald', sans-serif;
-  color: #192c39;
+  color: #183437
 }
 
 body {
-  background-image: url("images/pink_rice.png")
+  background-color: #e4d2d4;
 }
 
 #wrapper {
@@ -18,7 +18,7 @@ body {
 
 .polygon-header {
  
-  background-image: url("images/bananas.png");
+  background-color: #183437;
   height: 200px;
   width: 100vw;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
@@ -43,14 +43,14 @@ body {
 
 .menu a {
   font-family: 'Lato', sans-serif;
-  color:  #192c39;
+  color:  #d9bdc1;
 }
 
 
 
 .nav a {
   text-decoration: none;
-  border-top: 2px solid #192c39;
+  border-top: 2px solid #d9bdc1;
   padding-top: 10px
   
 }
@@ -64,7 +64,7 @@ label {
 }
 
 .diamond-web {
-  border: 2px  #192c39 solid;
+  border: 2px  #d9bdc1 solid;
   width: 50px;
   height: 50px;
   display: flex;
@@ -74,7 +74,7 @@ label {
 }
 
 .diamond-mobile {
-  border: 2px  #192c39 solid;
+  border: 2px #d9bdc1 solid;
   width: 50px;
   height: 50px;
   display: none;
@@ -94,8 +94,13 @@ label {
 }
 
 .diamond-web:hover {
-  background-color: white;
+  background-color: #d9bdc1;
 }
+
+.menu a:hover {
+  color: #183437;
+}
+
 
 
 
@@ -169,7 +174,7 @@ footer {
   flex-direction:column;
   align-items: center;
   justify-content: center;
-  background-image: url("images/bananas.png");
+  background-color: #183437;
   height: 30vh;
   margin-top: 10vw
 }

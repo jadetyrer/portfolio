@@ -53,28 +53,28 @@
 }
 
 .grid-item-text {
-  background-color: whitesmoke;
+  background-color: #183437;
   padding: 1.5vw;
   padding-bottom: 6vh;
-  color:  #192c39;
+  color:  #d9bdc1;
   font-weight: bolder;
 }
 
 .grid-item-link {
   padding: 1.5vw;
-  background-color: whitesmoke;
+  background-color: #183437;
 }
 
 .grid-item-link a:hover {
   cursor: pointer;
 }
 
-.grid-item-link a:link {
-  color: #192c39;
+.grid-item-link a {
+  color: #d9bdc1;
 }
 
 .grid-item-link a:vistied { 
-  color: purple;
+  color: whitesmoke;
 }
 
 @media only screen and (max-width: 800px) {
