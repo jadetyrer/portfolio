@@ -86,7 +86,7 @@
   font-size: 3vw;
   transform: rotate(-45deg);
   text-align: center;
-  color: #d9bdc1;
+  color: #c3ab98;
 }
 
 .right-box p {
@@ -94,7 +94,7 @@
   font-family: 'Roboto', sans-serif;
   transform: rotate(-45deg);
   text-align: center;
-  color: #d9bdc1;
+  color: #c3ab98;
 }
 
 @media only screen and (max-width: 400px) {

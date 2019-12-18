@@ -7,13 +7,14 @@
 }
 
 body {
-  background-color: #e4d2d4;
+  background-image: url("images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
 
 .polygon-header {
@@ -43,14 +44,14 @@ body {
 
 .menu a {
   font-family: 'Lato', sans-serif;
-  color:  #d9bdc1;
+  color:  #c3ab98;
 }
 
 
 
 .nav a {
   text-decoration: none;
-  border-top: 2px solid #d9bdc1;
+  border-top: 2px solid#c3ab98;
   padding-top: 10px
   
 }
@@ -64,7 +65,7 @@ label {
 }
 
 .diamond-web {
-  border: 2px  #d9bdc1 solid;
+  border: 2px  #c3ab98 solid;
   width: 50px;
   height: 50px;
   display: flex;
@@ -74,7 +75,7 @@ label {
 }
 
 .diamond-mobile {
-  border: 2px #d9bdc1 solid;
+  border: 2px#c3ab98 solid;
   width: 50px;
   height: 50px;
   display: none;
@@ -94,10 +95,10 @@ label {
 }
 
 .diamond-web:hover {
-  background-color: #d9bdc1;
+  background-color: #c3ab98;
 }
 
-.menu a:hover {
+.diamond-web:hover a {
   color: #183437;
 }
 
@@ -160,12 +161,6 @@ label {
 
 #toggle {
   display: none;
-}
-
-
-
-.main-content {
- 
 }
 
 

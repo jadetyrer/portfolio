@@ -36,7 +36,7 @@ h1 {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: #d9bdc1 2px solid;
+  border-bottom: #c3ab98 2px solid;
   padding: 10px;
   width: 100%;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 .btn {
-  background: pink;
+  background: #c3ab98;
   text-align: center;
   padding: 15px;
   border-radius: 5px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #d9bdc1;
+  background-color: #c3ab98;
   border: inset;
 }
 
