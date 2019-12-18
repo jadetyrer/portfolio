@@ -59,9 +59,10 @@ The final page is a contact page. This is created in order for the potential emp
 ###### Contact page
 ![](docs/wireframe-form.png)
 
-
-
 ## Webpages 
+
+###### Where it started 
+![](docs/start.png)
 
 ###### Homepage
 ![](docs/homepage-final.png)
@@ -102,9 +103,3 @@ The final page is a contact page. This is created in order for the potential emp
 I ran all my webpages through a validator to ensure my HTML and CSS pages are syntactically correct using the below: 
 - https://validator.w3.org/#validate_by_upload
 - https://jigsaw.w3.org/css-validator/#validate_by_upload
-
-
-
-
-
-
