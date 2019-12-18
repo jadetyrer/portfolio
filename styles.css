@@ -3,28 +3,28 @@
   margin: 0;
   padding: 0;
   font-family: 'Oswald', sans-serif;
-  color: #192c39;
+  color: #183437
 }
 
 body {
-  background-image: url("images/pink_rice.png")
+  background-image: url("images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
 
 .polygon-header {
- 
-  background-image: url("images/bananas.png");
+  background-color: #183437;
   height: 200px;
-  width: 100vw;
+  width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -43,14 +43,12 @@ body {
 
 .menu a {
   font-family: 'Lato', sans-serif;
-  color:  #192c39;
+  color:  #c3ab98;
 }
 
-
-
-.nav a {
+nav a {
   text-decoration: none;
-  border-top: 2px solid #192c39;
+  border-top: 2px solid#c3ab98;
   padding-top: 10px
   
 }
@@ -61,10 +59,11 @@ body {
 
 label {
   display: none;
+  margin-right: 30px;
 }
 
 .diamond-web {
-  border: 2px  #192c39 solid;
+  border: 2px  #c3ab98 solid;
   width: 50px;
   height: 50px;
   display: flex;
@@ -74,7 +73,7 @@ label {
 }
 
 .diamond-mobile {
-  border: 2px  #192c39 solid;
+  border: 2px#c3ab98 solid;
   width: 50px;
   height: 50px;
   display: none;
@@ -83,7 +82,7 @@ label {
   transform: rotate(45deg);
 }
 
-#logo {
+.logo {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2em;
   padding-left: 10px;
@@ -94,17 +93,25 @@ label {
 }
 
 .diamond-web:hover {
-  background-color: white;
+  background-color: #c3ab98;
+}
+
+.diamond-web:hover a {
+  color: #183437;
 }
 
 
-
 @media only screen and (max-width: 750px) {
+
+  label {
+    color: #c3ab98;
+  }
+
   .menu {
     width: 95%
   }
 
-  .nav {
+  nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -119,13 +126,11 @@ label {
   .menu a {
     display: block;
     height: 15px;
-
   }
 
-  .nav a {
+  nav a {
     border: none
   }
-
   
   label {
     display: block;
@@ -133,7 +138,6 @@ label {
     font-size: 50px;
     float: right;
   }
-
 
   #toggle:checked + .menu {
     display: block;
@@ -151,27 +155,24 @@ label {
     padding: 20px;
   }
 
+  .diamond-mobile a {
+    color: #c3ab98;
+  }
 }
 
 #toggle {
   display: none;
 }
 
-
-
-.main-content {
- 
-}
-
-
 footer {
   display: flex;
   flex-direction:column;
   align-items: center;
   justify-content: center;
-  background-image: url("images/bananas.png");
+  background-color: #183437;
   height: 30vh;
-  margin-top: 10vw
+  margin-top: 10vh;
+  width: 100vw;
 }
 
 .social-media {

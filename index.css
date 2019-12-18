@@ -55,7 +55,6 @@
   justify-content: center;
 }
 
-
 .left-box {
   display: flex;
   width: 40vw;
@@ -74,11 +73,10 @@
   justify-content: center;
   flex-direction: column;
   padding: 5vw;
-  background-color: pink;
+  background-color: #183437;
   width: 30vw;
   height: 30vw;
   transform: rotate(45deg);
-
 }
 
 .right-box h1 {
@@ -86,6 +84,7 @@
   font-size: 3vw;
   transform: rotate(-45deg);
   text-align: center;
+  color: #c3ab98;
 }
 
 .right-box p {
@@ -93,6 +92,7 @@
   font-family: 'Roboto', sans-serif;
   transform: rotate(-45deg);
   text-align: center;
+  color: #c3ab98;
 }
 
 @media only screen and (max-width: 400px) {
