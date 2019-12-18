@@ -56,7 +56,7 @@
   background-color: #183437;
   padding: 1.5vw;
   padding-bottom: 6vh;
-  color:  #d9bdc1;
+  color:  #c3ab98;
   font-weight: bolder;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .grid-item-link a {
-  color: #d9bdc1;
+  color: #c3ab98;
 }
 
 .grid-item-link a:vistied { 
