@@ -1,7 +1,7 @@
 # Jade Tyrer Website Portfolio
-Portfolio URL: https://jade-tyrer.netlify.com/index.html
-Github URL: https://github.com/jadetyrer/portfolio
-Moodboard URL: https://www.pinterest.com.au/jadetyrer18/portfolio/
+- Portfolio URL: https://jade-tyrer.netlify.com/index.html
+- Github URL: https://github.com/jadetyrer/portfolio
+- Moodboard URL: https://www.pinterest.com.au/jadetyrer18/portfolio/
 
 ## Purpose and Target Audience
 
@@ -95,9 +95,14 @@ The final page is a contact page. This is created in order for the potential emp
 ![](docs/variation-2.png)
 
 ## Challenges
-- Responsiveness 
-- starting without wireframe/mock up
-- 
+- It was a challenge to make the all pages responsive for all screen sizes. 
+- The change of the nav-bar to a burger menu in mobile view was quite difficult to implement.
+
+## Validation 
+I ran all my webpages through a validator to ensure my HTML and CSS pages are syntactically correct using the below: 
+- https://validator.w3.org/#validate_by_upload
+- https://jigsaw.w3.org/css-validator/#validate_by_upload
+
 
 
 
