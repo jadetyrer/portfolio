@@ -1,5 +1,5 @@
 # Jade Tyrer Website Portfolio
-Portfolio URL:  .....(link to website)
+Portfolio URL: https://jade-tyrer.netlify.com/index.html
 Github URL: https://github.com/jadetyrer/portfolio
 Moodboard URL: https://www.pinterest.com.au/jadetyrer18/portfolio/
 

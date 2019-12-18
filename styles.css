@@ -17,6 +17,7 @@ body {
   flex-direction: column;
 }
 
+
 .polygon-header {
   background-color: #183437;
   height: 200px;
@@ -31,7 +32,7 @@ nav {
   height: 70px;
 }
 
-
+/* Competent 1 - navigation bar with interactive logo */
 .menu {
   width: 70vw;
   display: flex;
@@ -72,16 +73,6 @@ label {
   transform: rotate(45deg);
 }
 
-.diamond-mobile {
-  border: 2px#c3ab98 solid;
-  width: 50px;
-  height: 50px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  transform: rotate(45deg);
-}
-
 .logo {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2em;
@@ -98,6 +89,23 @@ label {
 
 .diamond-web:hover a {
   color: #183437;
+}
+
+#toggle {
+  display: none;
+}
+
+/* Competent 1 - navigation bar with interactive logo */
+
+/* Competent 2 - burger menu navigation bar in mobile view */
+.diamond-mobile {
+  border: 2px#c3ab98 solid;
+  width: 50px;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
 }
 
 
@@ -159,11 +167,9 @@ label {
     color: #c3ab98;
   }
 }
+/* Competent 2 - burger menu navigation bar in mobile view */
 
-#toggle {
-  display: none;
-}
-
+/* Competent 3 - second navigation bar and icon links to profiles */
 footer {
   display: flex;
   flex-direction:column;
@@ -193,6 +199,10 @@ footer {
   width: 35px;
   padding: 0px;
 }
+.copyright p {
+  color: #c3ab98;
+}
+/* Competent 3 - second navigation bar and icon links to profiles */
 
 
 
