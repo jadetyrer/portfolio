@@ -12,11 +12,13 @@ h1 {
 }
 
 .contact-form {
-  background-color: #183437;
+  background-color: rgba(0,0,0,0.8);
   max-width: 100vw;
+  margin: 0, auto;
   padding: 30px;
   border-radius: 5px;
   display: flex;
+  box-shadow: 0, 0, 10px;
 }
 
 .input-fields {
@@ -34,7 +36,7 @@ h1 {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: #c3ab98 2px solid;
+  border-bottom: white 2px solid;
   padding: 10px;
   width: 100%;
 }
@@ -45,17 +47,17 @@ h1 {
 }
 
 .btn {
-  background: #c3ab98;
+  background: pink;
   text-align: center;
   padding: 15px;
   border-radius: 5px;
-  color: #183437;
+  color: rgba(0,0,0,0.8);
   cursor: pointer;
   border: outset
 }
 
 .btn:hover {
-  background-color: #c3ab98;
+  background-color: pink;
   border: inset;
 }
 
@@ -72,4 +74,5 @@ h1 {
   padding: 0;
   margin-top: 10px;
   }
+
 }
