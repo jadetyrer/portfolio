@@ -18,14 +18,13 @@ body {
 }
 
 .polygon-header {
- 
   background-color: #183437;
   height: 200px;
-  width: 100vw;
+  width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -47,9 +46,7 @@ body {
   color:  #c3ab98;
 }
 
-
-
-.nav a {
+nav a {
   text-decoration: none;
   border-top: 2px solid#c3ab98;
   padding-top: 10px
@@ -62,6 +59,7 @@ body {
 
 label {
   display: none;
+  margin-right: 30px;
 }
 
 .diamond-web {
@@ -84,7 +82,7 @@ label {
   transform: rotate(45deg);
 }
 
-#logo {
+.logo {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2em;
   padding-left: 10px;
@@ -103,8 +101,6 @@ label {
 }
 
 
-
-
 @media only screen and (max-width: 750px) {
 
   label {
@@ -115,7 +111,7 @@ label {
     width: 95%
   }
 
-  .nav {
+  nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -130,13 +126,11 @@ label {
   .menu a {
     display: block;
     height: 15px;
-
   }
 
-  .nav a {
+  nav a {
     border: none
   }
-
   
   label {
     display: block;
@@ -144,7 +138,6 @@ label {
     font-size: 50px;
     float: right;
   }
-
 
   #toggle:checked + .menu {
     display: block;
@@ -165,13 +158,11 @@ label {
   .diamond-mobile a {
     color: #c3ab98;
   }
-
 }
 
 #toggle {
   display: none;
 }
-
 
 footer {
   display: flex;

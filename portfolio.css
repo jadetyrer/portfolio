@@ -73,10 +73,6 @@
   color: #c3ab98;
 }
 
-.grid-item-link a:vistied { 
-  color: whitesmoke;
-}
-
 @media only screen and (max-width: 800px) {
   .grid-container {
     grid-template-columns: 1fr;

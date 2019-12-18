@@ -55,7 +55,6 @@
   justify-content: center;
 }
 
-
 .left-box {
   display: flex;
   width: 40vw;
@@ -78,7 +77,6 @@
   width: 30vw;
   height: 30vw;
   transform: rotate(45deg);
-
 }
 
 .right-box h1 {
